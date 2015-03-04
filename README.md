@@ -9,7 +9,9 @@
 
 Copyright CMSWorks Team 2015
 
-Как пользоваться:
+
+# Порядок установки:
+
 
 1) Регистрируемся на Payeer http://payeer.com/?partner=895938. Добавляете сайт в разделе "Магазин".
 
@@ -20,5 +22,7 @@ Copyright CMSWorks Team 2015
 4) Ссылки для указания в настройках Payeer:
 
 URL успешной оплаты: http://vashsite.com/index.php?e=payeerbilling&m=success
+
 URL неуспешной оплаты: http://vashsite.com/index.php?e=payeerbilling&m=fail
+
 URL обработчика: http://vashsite.com/index.php?r=payeerbilling
