@@ -6,9 +6,9 @@
 	<div class="alert alert-info">{PHP.L.payeerbilling_formtext}</div>
 	<script>
 		$(document).ready(function(){
-			//setTimeout(function() {
-			//	$("#payeerform").submit();
-			//}, 3000);
+			setTimeout(function() {
+				$("#payeerform").submit();
+			}, 3000);
 		});
 	</script>
 	{BILLING_FORM}
