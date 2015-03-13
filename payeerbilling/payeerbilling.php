@@ -50,7 +50,7 @@ if (empty($m))
 			<input type=\"hidden\" name=\"m_curr\" value=\"".$cfg['plugin']['payeerbilling']['curr']."\">
 			<input type=\"hidden\" name=\"m_desc\" value=\"".base64_encode($pinfo['pay_desc'])."\">
 			<input type=\"hidden\" name=\"m_sign\" value=\"".$sign."\">
-			<input type=\"submit\" name=\"m_process\" value=\"".$L['payeerbilling_formbuy']."\" />
+			<input type=\"submit\" name=\"m_process\" value=\"".$L['payeerbilling_formbuy']."\" class=\"btn btn-success btn-large\">
 			</form>";
 
 		$t->assign(array(
